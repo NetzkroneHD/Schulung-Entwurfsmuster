@@ -1,4 +1,4 @@
-package de.schulung.entwurfsmuster.strategy;
+package de.schulung.entwurfsmuster.behavioral.strategy;
 
 import java.util.ArrayList;
 import java.util.List;

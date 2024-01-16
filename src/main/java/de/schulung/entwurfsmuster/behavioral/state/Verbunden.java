@@ -1,4 +1,4 @@
-package de.schulung.entwurfsmuster.state;
+package de.schulung.entwurfsmuster.behavioral.state;
 
 public class Verbunden extends TelefonZustand {
 

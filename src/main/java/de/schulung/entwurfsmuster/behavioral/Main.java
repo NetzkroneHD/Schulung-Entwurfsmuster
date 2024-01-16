@@ -1,8 +1,9 @@
-package de.schulung.entwurfsmuster;
+package de.schulung.entwurfsmuster.behavioral;
 
-import de.schulung.entwurfsmuster.state.StatePattern;
-import de.schulung.entwurfsmuster.strategy.StrategyPattern;
-import de.schulung.entwurfsmuster.templatemethod.TemplateMethod;
+import de.schulung.entwurfsmuster.behavioral.chainofresponsibility.ChainOfResponsibility;
+import de.schulung.entwurfsmuster.behavioral.state.StatePattern;
+import de.schulung.entwurfsmuster.behavioral.strategy.StrategyPattern;
+import de.schulung.entwurfsmuster.behavioral.templatemethod.TemplateMethod;
 
 public class Main {
 
@@ -15,6 +16,9 @@ public class Main {
 
         print(StatePattern.class);
         StatePattern.run();
+
+        print(ChainOfResponsibility.class);
+        ChainOfResponsibility.run();
 
     }
 

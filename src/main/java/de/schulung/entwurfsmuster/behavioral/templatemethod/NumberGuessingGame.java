@@ -1,4 +1,4 @@
-package de.schulung.entwurfsmuster.templatemethod;
+package de.schulung.entwurfsmuster.behavioral.templatemethod;
 
 import java.util.Random;
 import java.util.Scanner;
