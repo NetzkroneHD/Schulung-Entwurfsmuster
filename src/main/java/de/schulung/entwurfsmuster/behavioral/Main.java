@@ -1,6 +1,7 @@
 package de.schulung.entwurfsmuster.behavioral;
 
 import de.schulung.entwurfsmuster.behavioral.chainofresponsibility.ChainOfResponsibility;
+import de.schulung.entwurfsmuster.behavioral.visitor.VisitorPattern;
 import de.schulung.entwurfsmuster.behavioral.state.StatePattern;
 import de.schulung.entwurfsmuster.behavioral.strategy.StrategyPattern;
 import de.schulung.entwurfsmuster.behavioral.templatemethod.TemplateMethod;
@@ -19,6 +20,9 @@ public class Main {
 
         print(ChainOfResponsibility.class);
         ChainOfResponsibility.run();
+
+        print(VisitorPattern.class);
+        VisitorPattern.run();
 
     }
 
