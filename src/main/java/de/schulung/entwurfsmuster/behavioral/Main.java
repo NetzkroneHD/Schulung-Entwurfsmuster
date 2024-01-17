@@ -2,6 +2,7 @@ package de.schulung.entwurfsmuster.behavioral;
 
 import de.schulung.entwurfsmuster.behavioral.adapter.AdapterPattern;
 import de.schulung.entwurfsmuster.behavioral.chainofresponsibility.ChainOfResponsibility;
+import de.schulung.entwurfsmuster.behavioral.composite.CompositePattern;
 import de.schulung.entwurfsmuster.behavioral.visitor.VisitorPattern;
 import de.schulung.entwurfsmuster.behavioral.state.StatePattern;
 import de.schulung.entwurfsmuster.behavioral.strategy.StrategyPattern;
@@ -27,6 +28,9 @@ public class Main {
 
         print(AdapterPattern.class);
         AdapterPattern.run();
+
+        print(CompositePattern.class);
+        CompositePattern.run();
 
     }
 

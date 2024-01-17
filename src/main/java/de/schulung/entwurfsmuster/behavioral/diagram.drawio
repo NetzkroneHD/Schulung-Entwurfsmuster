@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2024-01-17T09:04:32.212Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.18 Chrome/120.0.6099.199 Electron/28.1.2 Safari/537.36" etag="DYCLqX_U4VYxC1zkMMBT" version="22.1.18" type="device" pages="6">
+<mxfile host="Electron" modified="2024-01-17T09:59:11.348Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.18 Chrome/120.0.6099.199 Electron/28.1.2 Safari/537.36" etag="N4ZfW61TueLwEb51il_d" version="22.1.18" type="device" pages="7">
   <diagram name="Stategy" id="xmDkBabvOxORNaBu8frw">
     <mxGraphModel dx="2261" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -719,8 +719,59 @@
         <mxCell id="jmk_IxrrKnNA_zff5ffl-33" value="+ givePower(): int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="jmk_IxrrKnNA_zff5ffl-30">
           <mxGeometry y="60" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="A7eE99j-aIhBaPqG8aNU-1" value="&lt;h1&gt;Definition:&lt;/h1&gt;&lt;p&gt;Ermöglicht die Anpassung der Schnittstelle einer Klasse, um sie mit einer anderen kompatibel zu machen, ohne Dabei die interne Logik zu ändern.&lt;/p&gt;&lt;p&gt;Anpassung der Schnittstelle: charge Methode&lt;/p&gt;&lt;p&gt;anderen kompatibel: charge(UsbCharger) mit LightningCharger&lt;/p&gt;&lt;p&gt;Vorteil: Erleichtert die Integration von bestehendem Code, indem ungleiche Schnittstellen miteinander verbunden werden.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="A7eE99j-aIhBaPqG8aNU-1" value="&lt;h1&gt;Definition:&lt;/h1&gt;&lt;p&gt;Ermöglicht die Anpassung der Schnittstelle einer Klasse, um sie mit einer anderen kompatibel zu machen, ohne Dabei die interne Logik zu ändern.&lt;/p&gt;&lt;p&gt;Anpassung der Schnittstelle: charge Methode&lt;/p&gt;&lt;p&gt;anderen kompatibel: charge(UsbCharger) mit LightningCharger&lt;/p&gt;&lt;p&gt;Vorteil: Erleichtert die Integration von bestehendem Code, indem ungleiche Schnittstellen miteinander verbunden werden.&lt;/p&gt;&lt;p&gt;Merksatz: Ist ein -&amp;gt; hat was anderes&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="640" y="40" width="600" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="IRhjPw2XrbumvHpoxCQl" name="Composit">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FrswCM4fJfuCdejaFpBH-1" value="Bauteil" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="200" height="112" as="geometry">
+            <mxRectangle x="250" y="170" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FrswCM4fJfuCdejaFpBH-11" value="- name: String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="FrswCM4fJfuCdejaFpBH-1">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FrswCM4fJfuCdejaFpBH-3" value="- price: double" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="FrswCM4fJfuCdejaFpBH-1">
+          <mxGeometry y="52" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FrswCM4fJfuCdejaFpBH-4" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="FrswCM4fJfuCdejaFpBH-1">
+          <mxGeometry y="78" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="FrswCM4fJfuCdejaFpBH-14" value="+ getPrice(): double" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="FrswCM4fJfuCdejaFpBH-1">
+          <mxGeometry y="86" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FrswCM4fJfuCdejaFpBH-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FrswCM4fJfuCdejaFpBH-6" target="FrswCM4fJfuCdejaFpBH-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FrswCM4fJfuCdejaFpBH-6" value="Baugruppe" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="210" height="138" as="geometry">
+            <mxRectangle x="250" y="170" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FrswCM4fJfuCdejaFpBH-12" value="- name: String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="FrswCM4fJfuCdejaFpBH-6">
+          <mxGeometry y="26" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FrswCM4fJfuCdejaFpBH-7" value="- bauteile: List&lt;Bauteil&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="FrswCM4fJfuCdejaFpBH-6">
+          <mxGeometry y="52" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FrswCM4fJfuCdejaFpBH-9" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="FrswCM4fJfuCdejaFpBH-6">
+          <mxGeometry y="78" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="OuaPtfk_a1ZKH7StA0Fu-3" value="+ addBauteil(bauteil: Bauteil): double" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="FrswCM4fJfuCdejaFpBH-6">
+          <mxGeometry y="86" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OuaPtfk_a1ZKH7StA0Fu-2" value="+ getPrice(): double" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="FrswCM4fJfuCdejaFpBH-6">
+          <mxGeometry y="112" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OuaPtfk_a1ZKH7StA0Fu-1" value="&lt;h1&gt;Definition:&lt;/h1&gt;&lt;p&gt;Ermöglicht die einheitliche Behandlung von Einzelobjekten und zusammengesetzten Objekten. Diese werden als gemeinsame Schnittstelle dargestellt.&lt;/p&gt;&lt;p&gt;Gemeinsame Schnittstelle: Methode addBauteil&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Vorteil: Erleichtert die Arbeit mit Einzelobjekte und deren Zusammensetzungen, die auf die slebe Weise behandelt werden können.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="40" width="600" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
