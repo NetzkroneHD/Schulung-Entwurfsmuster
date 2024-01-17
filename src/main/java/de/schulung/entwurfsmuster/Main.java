@@ -1,5 +1,6 @@
 package de.schulung.entwurfsmuster;
 
+import de.schulung.entwurfsmuster.behavioral.lazyload.LazyLoadPattern;
 import de.schulung.entwurfsmuster.behavioral.observer.ObserverPattern;
 import de.schulung.entwurfsmuster.structual.adapter.AdapterPattern;
 import de.schulung.entwurfsmuster.behavioral.chainofresponsibility.ChainOfResponsibility;
@@ -35,6 +36,9 @@ public class Main {
 
         print(ObserverPattern.class);
         ObserverPattern.run();
+
+        print(LazyLoadPattern.class);
+        LazyLoadPattern.run();
 
     }
 
