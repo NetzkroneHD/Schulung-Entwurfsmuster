@@ -1,5 +1,6 @@
 package de.schulung.entwurfsmuster.behavioral;
 
+import de.schulung.entwurfsmuster.behavioral.adapter.AdapterPattern;
 import de.schulung.entwurfsmuster.behavioral.chainofresponsibility.ChainOfResponsibility;
 import de.schulung.entwurfsmuster.behavioral.visitor.VisitorPattern;
 import de.schulung.entwurfsmuster.behavioral.state.StatePattern;
@@ -24,12 +25,16 @@ public class Main {
         print(VisitorPattern.class);
         VisitorPattern.run();
 
+        print(AdapterPattern.class);
+        AdapterPattern.run();
+
     }
 
 
     public static void print(Class<?> clazz) {
+
         System.out.println();
-        System.out.println("============================");
+        System.out.println("=".repeat(60));
         System.out.println(clazz.getSimpleName()+":");
         System.out.println();
     }
