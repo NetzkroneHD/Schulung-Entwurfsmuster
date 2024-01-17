@@ -1,4 +1,4 @@
-package de.schulung.entwurfsmuster.behavioral.composite;
+package de.schulung.entwurfsmuster.structual.composite;
 
 import lombok.Data;
 

@@ -1,8 +1,9 @@
-package de.schulung.entwurfsmuster.behavioral;
+package de.schulung.entwurfsmuster;
 
-import de.schulung.entwurfsmuster.behavioral.adapter.AdapterPattern;
+import de.schulung.entwurfsmuster.behavioral.observer.ObserverPattern;
+import de.schulung.entwurfsmuster.structual.adapter.AdapterPattern;
 import de.schulung.entwurfsmuster.behavioral.chainofresponsibility.ChainOfResponsibility;
-import de.schulung.entwurfsmuster.behavioral.composite.CompositePattern;
+import de.schulung.entwurfsmuster.structual.composite.CompositePattern;
 import de.schulung.entwurfsmuster.behavioral.visitor.VisitorPattern;
 import de.schulung.entwurfsmuster.behavioral.state.StatePattern;
 import de.schulung.entwurfsmuster.behavioral.strategy.StrategyPattern;
@@ -31,6 +32,9 @@ public class Main {
 
         print(CompositePattern.class);
         CompositePattern.run();
+
+        print(ObserverPattern.class);
+        ObserverPattern.run();
 
     }
 

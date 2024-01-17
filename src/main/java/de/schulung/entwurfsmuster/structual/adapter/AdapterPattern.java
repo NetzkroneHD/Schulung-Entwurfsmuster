@@ -1,4 +1,4 @@
-package de.schulung.entwurfsmuster.behavioral.adapter;
+package de.schulung.entwurfsmuster.structual.adapter;
 
 public class AdapterPattern {
 
