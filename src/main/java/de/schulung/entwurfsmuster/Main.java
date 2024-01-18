@@ -10,6 +10,8 @@ import de.schulung.entwurfsmuster.behavioral.visitor.VisitorPattern;
 import de.schulung.entwurfsmuster.behavioral.state.StatePattern;
 import de.schulung.entwurfsmuster.behavioral.strategy.StrategyPattern;
 import de.schulung.entwurfsmuster.behavioral.templatemethod.TemplateMethod;
+import de.schulung.entwurfsmuster.structual.decorator.DecoratorPattern;
+import de.schulung.entwurfsmuster.structual.proxy.ProxyPattern;
 
 public class Main {
 
@@ -43,6 +45,12 @@ public class Main {
 
         print(FactoryPattern.class);
         FactoryPattern.run();
+
+        print(ProxyPattern.class);
+        ProxyPattern.run();
+
+        print(DecoratorPattern.class);
+        DecoratorPattern.run();
 
     }
 
