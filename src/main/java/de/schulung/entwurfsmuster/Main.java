@@ -2,6 +2,7 @@ package de.schulung.entwurfsmuster;
 
 import de.schulung.entwurfsmuster.behavioral.lazyload.LazyLoadPattern;
 import de.schulung.entwurfsmuster.behavioral.observer.ObserverPattern;
+import de.schulung.entwurfsmuster.creational.factory.FactoryPattern;
 import de.schulung.entwurfsmuster.structual.adapter.AdapterPattern;
 import de.schulung.entwurfsmuster.behavioral.chainofresponsibility.ChainOfResponsibility;
 import de.schulung.entwurfsmuster.structual.composite.CompositePattern;
@@ -39,6 +40,9 @@ public class Main {
 
         print(LazyLoadPattern.class);
         LazyLoadPattern.run();
+
+        print(FactoryPattern.class);
+        FactoryPattern.run();
 
     }
 
