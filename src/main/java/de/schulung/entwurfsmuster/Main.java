@@ -1,8 +1,10 @@
 package de.schulung.entwurfsmuster;
 
+import de.schulung.entwurfsmuster.behavioral.command.CommandPattern;
 import de.schulung.entwurfsmuster.behavioral.lazyload.LazyLoadPattern;
 import de.schulung.entwurfsmuster.behavioral.observer.ObserverPattern;
 import de.schulung.entwurfsmuster.creational.factory.FactoryPattern;
+import de.schulung.entwurfsmuster.prototype.PrototypePattern;
 import de.schulung.entwurfsmuster.structual.adapter.AdapterPattern;
 import de.schulung.entwurfsmuster.behavioral.chainofresponsibility.ChainOfResponsibility;
 import de.schulung.entwurfsmuster.structual.composite.CompositePattern;
@@ -51,6 +53,12 @@ public class Main {
 
         print(DecoratorPattern.class);
         DecoratorPattern.run();
+
+        print(PrototypePattern.class);
+        PrototypePattern.run();
+
+        print(CommandPattern.class);
+        CommandPattern.run();
 
     }
 
